@@ -1,0 +1,57 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr minmax(260px, 360px);
+  align-items: start; /* ⬅ top align */
+  gap: 2rem;
+  padding: 3rem 0 2.2rem;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  /* pas de padding-top ici */
+}
+
+.title {
+  margin: 0 0 0.75rem; /* ⬅ enlève la marge haute */
+  line-height: 1.08;
+}
+.portraitWrap {
+  justify-self: end;
+}
+
+.portrait {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--elev-2);
+  background: color-mix(in oklab, var(--panel) 85%, transparent);
+}
+
+/* petit reflet/anneau optionnel */
+.frame {
+  position: relative;
+  padding: 0.6rem;
+  border-radius: calc(var(--radius) + 0.6rem);
+  background: linear-gradient(
+    180deg,
+    color-mix(in oklab, var(--panel) 92%, transparent),
+    var(--panel)
+  );
+  border: 1px solid var(--border);
+  box-shadow: var(--elev-1);
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+  .portraitWrap {
+    justify-self: start;
+    max-width: 360px;
+  }
+}
