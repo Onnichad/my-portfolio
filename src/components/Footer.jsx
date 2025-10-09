@@ -1,11 +1,14 @@
 export default function Footer() {
   return (
     <footer
-      style={{ padding: '2rem 1.25rem', borderTop: '1px solid var(--border)' }}
+      style={{
+        padding: '2rem 1.25rem',
+        borderTop: '1px solid var(--border)',
+        marginTop: 20,
+        textAlign: 'center',
+      }}
     >
-      <small>
-        © {new Date().getFullYear()} Chris Treil — Tous droits réservés.
-      </small>
+      <small>© 2025 Chris Treil — Tous droits réservés.</small>
     </footer>
   );
 }

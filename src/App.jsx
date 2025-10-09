@@ -3,7 +3,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './routes/Home';
-import About from './routes/About';
 import Contact from './routes/Contact';
 
 const page = {
@@ -29,7 +28,6 @@ export default function App() {
           >
             <Routes location={location}>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<Home />} />
             </Routes>

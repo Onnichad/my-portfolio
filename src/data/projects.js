@@ -3,21 +3,12 @@ const projects = [
     slug: 'nina-carducci',
     title: 'Nina Carducci — Portfolio photo',
     description: 'Site vitrine optimisé performance & SEO, filtre galerie.',
-    tags: ['SEO', 'Opti', 'Access'],
+    tags: ['SEO', 'Opti', 'Accessibilité'],
     image: '/ninascreen.png',
     link: 'https://onnichad.github.io/Nina-Carducci-Dev-master',
     source: 'https://github.com/Onnichad/Nina-Carducci-Dev-master',
   },
-  {
-    slug: 'books',
-    title: 'Mon Vieu Grimoire — Catalogue de livres',
-    description:
-      "Backend en Node.js/Express et MongoDB d'un catalogue de livres.",
-    tags: ['Mongo', 'Node.js', 'Express'],
-    image: '/grimscreen.png',
-    link: '',
-    source: 'https://github.com/Onnichad/backend',
-  },
+
   {
     slug: 'kasa',
     title: 'Kasa — Location d’appartements',

@@ -30,6 +30,25 @@
   background: color-mix(in oklab, var(--panel) 85%, transparent);
 }
 
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 320px; /* contenu / sidebar */
+  gap: 2rem;
+  align-items: start;
+}
+
+.aside {
+  position: sticky;
+  top: 88px; /* ajuste selon la hauteur de ton header */
+  display: grid;
+  gap: 1rem;
+}
+
+.vList {
+  display: grid;
+  gap: 0.9rem;
+}
+
 /* petit reflet/anneau optionnel */
 .frame {
   position: relative;
@@ -53,5 +72,11 @@
   .portraitWrap {
     justify-self: start;
     max-width: 360px;
+  }
+  .mainGrid {
+    grid-template-columns: 1fr;
+  }
+  .aside {
+    position: static;
   }
 }
