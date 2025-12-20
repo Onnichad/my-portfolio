@@ -3,7 +3,7 @@ export default function Contact() {
     <section className="container" style={{ padding: '2rem 0' }}>
       <h2>Contact</h2>
       <p style={{ maxWidth: 720, marginTop: 8 }}>
-        Tu peux me joindre via ces canaux. Je réponds rapidement.
+        Joignable via ces canaux. Je réponds rapidement.
       </p>
 
       <div className="grid" style={{ marginTop: '1rem' }}>
@@ -15,14 +15,14 @@ export default function Contact() {
               href="mailto:ton.email@exemple.com?subject=Contact%20depuis%20portfolio"
               style={{ textDecoration: 'underline', textUnderlineOffset: 3 }}
             >
-              ton.email@exemple.com
+              onnidevpro@gmail.com
             </a>
           </p>
           <div style={{ marginTop: 8 }}>
             <button
               className="btn ghost"
               onClick={() =>
-                navigator.clipboard.writeText('ton.email@exemple.com')
+                navigator.clipboard.writeText('onnidevpro@gmail.com')
               }
               aria-label="Copier l’email"
             >
@@ -36,12 +36,12 @@ export default function Contact() {
           <h3 style={{ margin: 0 }}>LinkedIn</h3>
           <p style={{ marginTop: 6 }}>
             <a
-              href="https://www.linkedin.com/in/ton-profil"
+              href="https://www.linkedin.com/in/christopher-treil-63037839b/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: 'underline', textUnderlineOffset: 3 }}
             >
-              linkedin.com/in/ton-profil
+              linkedin.com/in/christopher-treil-63037839b/
             </a>
           </p>
         </article>
