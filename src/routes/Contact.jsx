@@ -12,23 +12,13 @@ export default function Contact() {
           <h3 style={{ margin: 0 }}>Email</h3>
           <p style={{ marginTop: 6 }}>
             <a
-              href="mailto:ton.email@exemple.com?subject=Contact%20depuis%20portfolio"
+              href="mailto:onnidevpro@gmail.com?subject=Contact%20depuis%20portfolio"
               style={{ textDecoration: 'underline', textUnderlineOffset: 3 }}
             >
               onnidevpro@gmail.com
             </a>
           </p>
-          <div style={{ marginTop: 8 }}>
-            <button
-              className="btn ghost"
-              onClick={() =>
-                navigator.clipboard.writeText('onnidevpro@gmail.com')
-              }
-              aria-label="Copier l’email"
-            >
-              Copier l’email
-            </button>
-          </div>
+          <div style={{ marginTop: 8 }}></div>
         </article>
 
         {/* LinkedIn */}
