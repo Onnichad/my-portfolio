@@ -28,7 +28,7 @@ export default function Home() {
 
           <p style={{ maxWidth: 720, marginTop: 10 }}>
             Je suis Christopher Treil, développeur web orienté front-end. Mon
-            objectif : livrer des interfaces fluides, accessibles (a11y) et
+            objectif : livrer des interfaces fluides, accessibles et
             performantes qui servent vraiment l’utilisateur. Pendant mon
             parcours OpenClassrooms, j’ai construit des apps en React (Vite,
             React Router, SCSS modules, Framer Motion) et réalisé des backends
@@ -36,10 +36,9 @@ export default function Home() {
             sécurisation. Je porte une attention particulière à la qualité du
             code (composants réutilisables, design tokens, état maîtrisé), à la
             performance & SEO (images optimisées, lazy-loading, métadonnées) et
-            aux bonnes pratiques (Git, revues de code, tests unitaires avec
-            Vitest/RTL). Curieux et pédagogue, j’aime travailler avec des
-            designers et des PM pour transformer une intention produit en
-            expérience claire, rapide et fiable.
+            aux bonnes pratiques (Git, revues de code.). Curieux et pédagogue,
+            j’aime travailler avec des designers pour transformer une intention
+            produit en expérience claire, rapide et fiable.
           </p>
         </div>
 
@@ -59,7 +58,7 @@ export default function Home() {
                 alt="Photo de Chris Treil"
                 width={420}
                 height={350}
-                loading="eager"
+                loading="lazy"
                 fetchpriority="high"
               />
             </picture>
@@ -87,7 +86,6 @@ export default function Home() {
             <SkillBarVertical name="CSS/SCSS" level={85} />
             <SkillBarVertical name="Node/Express" level={70} />
             <SkillBarVertical name="HTML" level={80} />
-            <SkillBarVertical name="Tests (RTL/Vitest)" level={55} />
             <SkillBarVertical name="Optimisation SEO" level={75} />
             <SkillBarVertical name="MongoDB" level={60} />
           </div>
