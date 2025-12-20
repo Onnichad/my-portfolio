@@ -4,6 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 import projects from '../data/projects';
 import SkillBarVertical from '../components/SkillBarVertical';
 import styles from './Home.module.scss';
+const meUrl = `${import.meta.env.BASE_URL}me.png`;
 
 // imports inchangés…
 
@@ -51,10 +52,10 @@ export default function Home() {
         >
           <div className={styles.frame}>
             <picture>
-              <source srcSet="/me.png" type="image/png" />
+              <source srcSet={meUrl} type="image/png" />
               <img
                 className={styles.portrait}
-                src="/me.png"
+                src={meUrl}
                 alt="Photo de Chris Treil"
                 width={420}
                 height={350}
