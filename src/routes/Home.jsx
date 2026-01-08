@@ -24,22 +24,21 @@ export default function Home() {
           </motion.h1>
 
           <span className="badge">
-            Ouvert à des missions freelance et opportunités long terme.
+            Open to freelance and long term missions.
           </span>
 
           <p style={{ maxWidth: 720, marginTop: 10 }}>
-            Je suis Christopher Treil, développeur web orienté front-end. Mon
-            objectif : livrer des interfaces fluides, accessibles et
-            performantes qui servent vraiment l’utilisateur. Pendant mon
-            parcours OpenClassrooms, j’ai construit des apps en React (Vite,
-            React Router, SCSS modules, Framer Motion) et réalisé des backends
-            en Node/Express avec MongoDB, authentification JWT, upload et
-            sécurisation. Je porte une attention particulière à la qualité du
-            code (composants réutilisables, design tokens, état maîtrisé), à la
-            performance & SEO (images optimisées, lazy-loading, métadonnées) et
-            aux bonnes pratiques (Git, revues de code.). Curieux et pédagogue,
-            j’aime travailler avec des designers pour transformer une intention
-            produit en expérience claire, rapide et fiable.
+            I’m Christopher Treil, a front-end–oriented web developer. My goal
+            is to deliver smooth, accessible, high-performance interfaces that
+            truly serve the user. During my OpenClassrooms program, I built
+            React apps (Vite, React Router, SCSS Modules, Framer Motion) and
+            developed back ends with Node/Express and MongoDB, including JWT
+            authentication, file upload, and security hardening. I pay close
+            attention to code quality (reusable components, design tokens,
+            well-managed state), performance & SEO (optimized images, lazy
+            loading, metadata), and best practices (Git, code reviews). Curious
+            and a natural teacher, I enjoy working with designers to turn
+            product intent into an experience that’s clear, fast, and reliable.
           </p>
         </div>
 

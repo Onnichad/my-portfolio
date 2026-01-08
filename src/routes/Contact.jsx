@@ -3,7 +3,7 @@ export default function Contact() {
     <section className="container" style={{ padding: '2rem 0' }}>
       <h2>Contact</h2>
       <p style={{ maxWidth: 720, marginTop: 8 }}>
-        Joignable via ces canaux. Je réponds rapidement.
+        My contacts below, I respond quickly.
       </p>
 
       <div className="grid" style={{ marginTop: '1rem' }}>

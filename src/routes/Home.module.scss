@@ -1,7 +1,7 @@
 .hero {
   display: grid;
   grid-template-columns: 1fr minmax(260px, 360px);
-  align-items: start; /* ⬅ top align */
+  align-items: start;
   gap: 2rem;
   padding: 3rem 0 2.2rem;
 }
@@ -9,11 +9,10 @@
 .copy {
   display: flex;
   flex-direction: column;
-  /* pas de padding-top ici */
 }
 
 .title {
-  margin: 0 0 0.75rem; /* ⬅ enlève la marge haute */
+  margin: 0 0 0.75rem;
   line-height: 1.08;
 }
 .portraitWrap {
@@ -32,14 +31,14 @@
 
 .mainGrid {
   display: grid;
-  grid-template-columns: 1fr 320px; /* contenu / sidebar */
+  grid-template-columns: 1fr 320px;
   gap: 2rem;
   align-items: start;
 }
 
 .aside {
   position: sticky;
-  top: 88px; /* ajuste selon la hauteur de ton header */
+  top: 88px;
   display: grid;
   gap: 1rem;
 }
@@ -49,7 +48,6 @@
   gap: 0.9rem;
 }
 
-/* petit reflet/anneau optionnel */
 .frame {
   position: relative;
   padding: 0.6rem;
@@ -69,10 +67,24 @@
     grid-template-columns: 1fr;
     align-items: start;
   }
+
   .portraitWrap {
-    justify-self: start;
-    max-width: 360px;
+    justify-self: stretch;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
   }
+
+  .frame {
+    width: 100%;
+  }
+  .portrait {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* tu peux garder aspect-ratio: 3 / 4 si tu veux forcer un ratio visuel */
+  }
+
   .mainGrid {
     grid-template-columns: 1fr;
   }
